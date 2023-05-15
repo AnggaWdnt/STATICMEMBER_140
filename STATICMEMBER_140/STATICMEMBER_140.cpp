@@ -10,3 +10,8 @@ public:
 
 	void setID();
 	void printALL();
+	mahasiswa(string pnama) :nama(pnama) {
+		setID(); }
+};
+
+	int mahasiswa::nim = 0;
